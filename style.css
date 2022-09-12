@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFD845;
+    width: 1920px;
+    overflow-x: hidden;
+}
+
+.brand {
+    width: 610px;
+    height: 225px;
+    position: absolute;
+    left: 655px;
+    top: 50px;
+}
+
+.button:active {
+    background-color: rgb(77, 77, 245);
+}
+
+.mask {
+    position: absolute;
+    left: 81.72%;
+    right: 15.68%;
+    top: 2.92%;
+    bottom: 94.17%;
+
+}
+
+.container {
+    width: 1125px;
+    margin: 0 auto;
+}
+
+.select {
+    color: #000000;
+    margin-left: 15px;
+    margin-top: 345px;
+    width: 260px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    font-family: "Roboto";
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.joy {
+    height: 100px;
+}
+
+.groupPokemon {
+    width: 1318px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.pokemon {
+    width: 307px;
+    height: 423px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 20px;
+}
+
+.pokemons {
+    margin-left: 75px;
+    margin-top: 30px;
+}
+
+.pokemon .chiziq {
+    width: 307px;
+    height: 2px;
+    background: #000000;
+    margin-top: 55px;
+}
+
+.pokemon h2 {
+    position: relative;
+    width: 115px;
+    height: 28px;
+    left: 30px;
+    top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+
+}
+
+.pokemon h5 {
+    width: 124px;
+    height: 23px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+
+    color: #000000;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.maSK {
+    position: relative;
+    left: 204px;
+    top: -35px;
+}
+
+.flex {
+    display: flex;
+}
+
+
+.mane{
+   display: none;
+}
+.drop {
+    width: 536px;
+    background: #FFEDA9;
+    position: absolute;
+    top: 0px;
+    left: 1348px;
+}
+
+.close{
+    background-color: #FFEDA9;
+    border:none;
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    margin-bottom: 50px;
+}
+
+.pokemonMask{
+    margin-left: 114px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-bottom: 50px;
+} 
